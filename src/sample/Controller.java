@@ -1048,6 +1048,7 @@ public class Controller extends JPanel implements Initializable {
         ObjectInputStream in = new ObjectInputStream(filein);
         get_it = (Saving_class) in.readObject();
         in.close();
+//        hrghkjhg
         filein.close();
         System.out.println("score: "+get_it.score);
         Controller.game_coins=get_it.coins;
